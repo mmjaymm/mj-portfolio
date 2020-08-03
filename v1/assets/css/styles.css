@@ -1,11 +1,62 @@
 .navbar {
-  padding: .5rem 2rem;
+  padding: .5rem 3rem;
 }
 
-.nav-link {
-  color: #ffffff;
+.bg-dark-opacity {
+  background-color: rgb(52, 58, 64, 0.5);
 }
 
-.s-div {
-  height: 650px;
+.s-about {
+  height: 100vh;
+} 
+
+.card-columns {
+  column-gap: 2.25rem;
+}
+
+.card-img-top {
+  margin: 10% 25% 0%;
+  width: 50%;
+}
+
+.no-bg {
+  background-color: transparent;
+}
+
+.no-border {
+  border: none;
+}
+
+.s-about {
+  background-image: url('../images/about-banner1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.about-container {
+  color: rgb(7, 36, 36);
+  width: 70%;
+  height: 100%;
+  font-size: 2rem;
+}
+.about-name {
+  font-size: 2.3rem;
+  font-weight: 500;
+  font-style: oblique;
+  -webkit-text-stroke: 0.5px #ffffff;
+}
+
+.about-quote {
+  font-style: italic;
+}
+
+.s-portfolio {
+  background-image: url('../images/banner-portfolio2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

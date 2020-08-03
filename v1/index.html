@@ -4,35 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MJ</title>
-
+  
+  <link rel="icon" href="./assets/images/my-logo1.png" type="image/png">
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/v1/assets/css/styles.css">
   
 </head>
 <body>
   <div>
-    <nav class="navbar bg-dark">
-      <div class="navbar-brand">
-        <h2 class="text-white">MJ</h2>
-      </div>
 
-      <ul class="nav">
-        <li><a href="" class="nav-link">ABOUT</a></li>
-        <li><a href="" class="nav-link">SKILLS</a></li>
-        <li><a href="" class="nav-link">PORTFOLIO</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark-opacity fixed-top">
+      <div class="container">
+        <a class="navbar-brand mr-auto" href="#">
+          <img src="./assets/images/my-logo1.png" width="40" height="40" alt=""> M J
+        </a>
+        
+        <ul class="navbar-nav ">
+          <li class="nav-item ml-4 active">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item ml-4">
+            <a class="nav-link" href="#">SKILLS</a>
+          </li>
+          <li class="nav-item ml-4">
+            <a href="#" class="nav-link">PORTFOLIO</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <section class="s-about s-div">
-
+    <section class="s-about s-div bg-success">
+      <div class="about-container d-flex flex-column align-items-center justify-content-center">
+        <p>Hello, I'm <span class="about-name">MARK JAY MERCADO</span></p>
+        <p>I am a <span class="about-me">Web Developer</span></p>
+        <p class="about-quote">"What we Think, we become!"</p>
+      </div>
     </section>
 
-    <section class="s-skills s-div bg-secondary">
+    <section class="s-skills s-div py-5">
+      <div class="container">
+      <header class="skills-header text-center">
+        <h3 class="mb-3">SKILLS</h3>
+      </header>
+      <div class="skills-body">
+        <div class="card-columns">
 
+          <div class="card no-bg no-border">
+            <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
+            <div class="card-body text-center px-0">
+              <h4 class="card-title">Ecommerce</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+          <div class="card no-bg no-border">
+            <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
+            <div class="card-body text-center px-0">
+              <h4 class="card-title">Artistic</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+          <div class="card no-bg no-border">
+            <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
+            <div class="card-body text-center px-0">
+              <h4 class="card-title">Coding</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     </section>
 
-    <section class="s-portfolio s-div">
-
+    <section class="s-portfolio s-div py-5">
+      <div class="container">
+        <header class="portfolio-header text-center">
+          <h3 class="mb-3">PORTFOLIO</h3>
+        </header>
+        <div class="portfolio-body">
+        </div>
     </section>
 
     <footer>
