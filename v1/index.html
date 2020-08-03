@@ -21,19 +21,22 @@
         
         <ul class="navbar-nav ">
           <li class="nav-item ml-4 active">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item ml-4">
-            <a class="nav-link" href="#">SKILLS</a>
+            <a class="nav-link" href="#skills">SKILLS</a>
           </li>
           <li class="nav-item ml-4">
-            <a href="#" class="nav-link">PORTFOLIO</a>
+            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+          </li>
+          <li class="nav-item ml-4">
+            <a href="#portfolio" class="nav-link">RESUME</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <section class="s-about s-div bg-success">
+    <section class="s-about s-div bg-success" id="about">
       <div class="about-container d-flex flex-column align-items-center justify-content-center">
         <p>Hello, I'm <span class="about-name">MARK JAY MERCADO</span></p>
         <p>I am a <span class="about-me">Web Developer</span></p>
@@ -41,10 +44,10 @@
       </div>
     </section>
 
-    <section class="s-skills s-div py-5">
+    <section class="s-skills s-div py-5" id="skills">
       <div class="container">
       <header class="skills-header text-center">
-        <h3 class="mb-3">SKILLS</h3>
+        <h2 class="mb-3">SKILLS</h2>
       </header>
       <div class="skills-body">
         <div class="card-columns">
@@ -53,23 +56,30 @@
             <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
             <div class="card-body text-center px-0">
               <h4 class="card-title">Ecommerce</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              <p class="card-text">
+                Ecommerce is a leading technology that many people use for their business. 
+                I have a knowledge in Wordpress and Shopify in creating an ecommerce website.
+              </p>
             </div>
           </div>
 
           <div class="card no-bg no-border">
-            <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
+            <img class="card-img-top" src="./assets/skills/design.png" alt="">
             <div class="card-body text-center px-0">
-              <h4 class="card-title">Artistic</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              <h4 class="card-title">Designer</h4>
+              <p class="card-text">
+                Frontend Development is needed a professional graphic artist to make an eye catchy design and user friendly mockups.
+              </p>
             </div>
           </div>
 
           <div class="card no-bg no-border">
-            <img class="card-img-top" src="./assets/skills/shopping-cart.png" alt="">
+            <img class="card-img-top" src="./assets/skills/source-code.png" alt="">
             <div class="card-body text-center px-0">
               <h4 class="card-title">Coding</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              <p class="card-text">
+                I am currently use PHP programming language, Laravel and Codeigniter in creating website/web-based system.
+              </p>
             </div>
           </div>
 
@@ -78,17 +88,53 @@
     </div>
     </section>
 
-    <section class="s-portfolio s-div py-5">
-      <div class="container">
+    <section class="s-portfolio s-div py-5" id="portfolio">
+      <div class="container mb-5">
         <header class="portfolio-header text-center">
-          <h3 class="mb-3">PORTFOLIO</h3>
+          <h2 class="mb-3">PORTFOLIO</h2>
         </header>
         <div class="portfolio-body">
+            <div class="row">
+
+              <div class="col-6 mt-5">
+                <div class="d-flex">
+                  <img class="img-thumbnail" src="./assets/portfolio/interactive-area-house.jpg" alt="Area of House" width="300">
+                  <div class="portfolio-items d-flex flex-column justify-content-center">
+                    <h3 class="my-4 text-center">Interactive Area House</h3>
+                    <article class="mx-3 mb-3">This mini project is to know the area of a house made from html, css and jquery.</article>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="d-flex">
+                  <img class="img-thumbnail" src="./assets/portfolio/pins.jpg" alt="Parts Indirect System" width="300">
+                  <div class="portfolio-items d-flex flex-column justify-content-center">
+                    <h3 class="my-4 text-center">Parts Indirect System</h3>
+                    <article class="mx-3 mb-3">This is Inventory Management System of parts inside the production of manufacturing.</article>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="d-flex">
+                  <img class="img-thumbnail" src="./assets/portfolio/pqh.jpg" alt="Parts Quality History" width="300">
+                  <div class="portfolio-items d-flex flex-column justify-content-center">
+                    <h3 class="my-4 text-center">Parts Quality History</h3>
+                    <article class="mx-3 mb-3">The main purpose of this system is to reflect the good/not good output of the item. To monitor the quality of the products.</article>
+                  </div>
+                </div>
+              </div>
+
+            </div>
         </div>
+      </div>
     </section>
 
     <footer>
-
+      <div class="container-fluid text-center my-5">
+        <small>@Mark Jay Mercado</small>
+      </div>
     </footer>
   </div>
 </body>

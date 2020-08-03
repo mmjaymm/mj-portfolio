@@ -60,3 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.portfolio-items {
+  background-color: rgb(229 255 229);
+}
