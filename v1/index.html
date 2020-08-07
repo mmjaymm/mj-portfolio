@@ -7,33 +7,35 @@
   
   <link rel="icon" href="./assets/images/my-logo1.png" type="image/png">
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/v1/assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   
 </head>
 <body>
   <div>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark-opacity fixed-top">
-      <div class="container">
-        <a class="navbar-brand mr-auto" href="#">
-          <img src="./assets/images/my-logo1.png" width="40" height="40" alt=""> M J
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark-opacity fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/my-logo1.png" width="40" height="40" alt=""/> M J
         </a>
-        
-        <ul class="navbar-nav ">
-          <li class="nav-item ml-4 active">
-            <a class="nav-link" href="#about">ABOUT</a>
-          </li>
-          <li class="nav-item ml-4">
-            <a class="nav-link" href="#skills">SKILLS</a>
-          </li>
-          <li class="nav-item ml-4">
-            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
-          </li>
-          <li class="nav-item ml-4">
-            <a href="#portfolio" class="nav-link">RESUME</a>
-          </li>
-        </ul>
-      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-4 active">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a href="#portfolio" class="nav-link">RESUME</a>
+            </li>
+          </ul>
+        </div>
     </nav>
 
     <section class="s-about s-div bg-success" id="about">
@@ -94,34 +96,34 @@
           <h2 class="mb-3">PORTFOLIO</h2>
         </header>
         <div class="portfolio-body">
-            <div class="row">
+            <div class="row mt-4">
 
-              <div class="col-6 mt-5">
-                <div class="d-flex">
-                  <img class="img-thumbnail" src="./assets/portfolio/interactive-area-house.jpg" alt="Area of House" width="300">
-                  <div class="portfolio-items d-flex flex-column justify-content-center">
-                    <h3 class="my-4 text-center">Interactive Area House</h3>
-                    <article class="mx-3 mb-3">This mini project is to know the area of a house made from html, css and jquery.</article>
+              <div class="col-md-6 mb-3">
+                <div class="card flex-row">
+                  <img class="img-thumbnail" src="./assets/portfolio/interactive-area-house.jpg" alt="Area of House" width="300" height="300">
+                  <div class="card-body">
+                    <h3 class="text-center">Interactive Area House</h3>
+                    <article>This mini project is to know the area of a house made from html, css and jquery.</article>
                   </div>
                 </div>
               </div>
 
-              <div class="col-6 mt-5">
-                <div class="d-flex">
+              <div class="col-md-6 mb-3">
+                <div class="card flex-row">
                   <img class="img-thumbnail" src="./assets/portfolio/pins.jpg" alt="Parts Indirect System" width="300">
-                  <div class="portfolio-items d-flex flex-column justify-content-center">
-                    <h3 class="my-4 text-center">Parts Indirect System</h3>
-                    <article class="mx-3 mb-3">This is Inventory Management System of parts inside the production of manufacturing.</article>
+                  <div class="card-body">
+                    <h3 class="text-center">Parts Indirect System</h3>
+                    <article>This is Inventory Management System of parts inside the production of manufacturing.</article>
                   </div>
                 </div>
               </div>
 
-              <div class="col-6 mt-5">
-                <div class="d-flex">
+              <div class="col-md-6 mb-3">
+                <div class="card flex-row">
                   <img class="img-thumbnail" src="./assets/portfolio/pqh.jpg" alt="Parts Quality History" width="300">
-                  <div class="portfolio-items d-flex flex-column justify-content-center">
-                    <h3 class="my-4 text-center">Parts Quality History</h3>
-                    <article class="mx-3 mb-3">The main purpose of this system is to reflect the good/not good output of the item. To monitor the quality of the products.</article>
+                  <div class="card-body">
+                    <h3 class="text-center">Parts Quality History</h3>
+                    <article>The main purpose of this system is to reflect the good/not good output of the item. To monitor the quality of the products.</article>
                   </div>
                 </div>
               </div>
@@ -137,5 +139,7 @@
       </div>
     </footer>
   </div>
+
+  <script src="./assets/js/scripts.js"></script>
 </body>
 </html>

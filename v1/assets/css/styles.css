@@ -1,9 +1,16 @@
+body {
+  width: 100%;
+}
 .navbar {
   padding: .5rem 3rem;
 }
 
 .bg-dark-opacity {
-  background-color: rgb(52, 58, 64, 0.5);
+  background-color: rgb(52, 58, 64, 0.1) !important;
+}
+
+.bg-dark-opacity.opacity-none {
+  background-color: rgb(3, 120, 150) !important;
 }
 
 .s-about {
@@ -63,4 +70,11 @@
 
 .portfolio-items {
   background-color: rgb(229 255 229);
+}
+
+@media (max-width: 720px)
+{
+  .about-container {
+    width: 100%;
+  }
 }
